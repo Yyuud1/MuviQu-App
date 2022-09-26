@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://w7.pngwing.com/pngs/815/325/png-transparent-cinema-film-movie-theatre-film-poster-clapperboard-stock-photography-thumbnail.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>MoviQu</title>
+</head>
+<body>
+  <!-- HEADER START -->
+    <header>
+        <top-bar></top-bar>
+
+        <div class="sidebar">
+            <a href="#home">
+                <i class="fas fa-home"></i>
+                <p>Home</p>
+            </a>
+            <a href="#popular">
+                <i class="fas fa-fire"></i>
+                <p>Popular</p>
+            </a>
+            <a href="#television" onclick="alert('coming soon kak hehe')">
+                <i class="fas fa-television"></i>
+                <p>Television</p>
+            </a>
+            <a href="#contact" onclick="alert('coming soon kak hehe')">
+                <i class="fas fa-address-book"></i>
+                <p>Contact</p>
+            </a>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main>
+     <!-- HOME START -->
+        <section class="home parent p-lg-5" id="home">
+            <div class="container">
+              <div class="row mt-5 p-5">
+                <div class="col-md-12 text-center">
+                  <h2 class="home-title">Welcome To <span style="color: #fdae38;">MuviQu</span></h2>
+                  <p class="home-text">A website that provides the most popular movies this year, please find a movie that you like and don't forget to prepare a snack before you start watching the movie!</p>
+                  <a href="#" class="btn p-2" style="background-color: #fdae38; color: #f0f0f0;" >Enjoy It</a>
+                </div>
+              </div>
+            </div>
+        </section>
+
+    <!-- HOME END -->
+
+    <!-- POPULAR START -->
+        <section class="popular parent mt-5" id="popular">
+            <div class="title-popular mt-5">
+              <h3>Popular Movie</h3>        
+            </div>
+
+            <div class="row mt-2 movie-list">
+        
+            </div>
+        </section>
+    <!-- POPULAR END -->
+
+    <!-- Popup Start-->
+    <div class="modal fade" id="detailMovie" tabindex="-1" aria-labelledby="detailMovieLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-black-50" id="detailMovieLabel">Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3 img-fluid"></div>
+                <div class="col-md">
+                  <ul class="list-group">
+                    <li class="list-group-item">Title : </li>
+                    <li class="list-group-item">Release date : </li>
+                    <li class="list-group-item">Rating : </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Popup End -->
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="parent" id="popular">
+        <p>© 2022 Copyright: Created & Design with &#9829; by YudaGrh</p>        
+    </footer>
+    <!-- FOOTER END -->
+</body>
+</html>
+
+ 
